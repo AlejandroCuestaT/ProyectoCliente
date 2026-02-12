@@ -61,6 +61,22 @@ body {
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-align: center;
+}
+
+/* Categorización de Herramientas */
+.grupoHabilidades {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.subtituloCategoria {
+    color: #555;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.85em;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .listaHabilidades {
@@ -69,6 +85,7 @@ body {
     gap: 12px;
     list-style: none;
     padding: 0;
+    justify-content: center;
 }
 
 .etiquetaHabilidad {
