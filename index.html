@@ -1,15 +1,77 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Alejandro Cuesta</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h1> Página exclusiva para Alex Cuesta </h1>
-    <h1> Prueba Actualizacion </h1>
+
+    <header class="headerPrincipal">
+        <img src="img/foto-cara.png" alt="Foto" class="miFoto">
+        
+        <h1 class="tituloNombre">Alejandro Cuesta Trapote</h1>
+        <p class="subtituloProfesion">Desarrollador de Aplicaciones Web y Multiplataforma</p>
+    </header>
+
+    <main class="contenedorPrincipal">
+
+        <section class="seccionTarjeta">
+            <h2 class="tituloSeccion">Sobre mí</h2>
+            
+            <p>
+                ¡Hola! Soy un desarrollador formandome y aprendiendo cada dia mas, me estoy especializando en <strong>Backend</strong>
+                Una de mis cualidades es esa curiosidad por querer aprender 
+            </p>
+            <p>
+                Me encanta resolver problemas complejos y trabajar en equipo. Mi objetivo es seguir creciendo 
+                en el sector tecnológico y contribuir en proyectos desafiantes.
+            </p>
+        </section>
+
+        <section class="seccionTarjeta">
+            <h2 class="tituloSeccion">Mis Herramientas</h2>
+            <p>Estas son las tecnologías con las que disfruto creando cosas:</p>
+            <ul class="listaHabilidades">
+                <li class="etiquetaHabilidad">Java</li>
+                <li class="etiquetaHabilidad">Spring Boot</li>
+                <li class="etiquetaHabilidad">Angular</li>
+                <li class="etiquetaHabilidad">Python</li>
+                <li class="etiquetaHabilidad">SQL</li>
+                <li class="etiquetaHabilidad">TypeScript</li>
+                <li class="etiquetaHabilidad">HTML + CSS</li>
+            </ul>
+        </section>
+
+        <section class="seccionTarjeta">
+            <h2 class="tituloSeccion">Experiencia Destacada</h2>
+            
+            <div class="itemExperiencia">
+                <h3>Desarrollador Full Stack (Prácticas)</h3>
+                <span class="fechaExperiencia">Eviden (Atos) | Marzo 2024 - Junio 2025</span>
+                <p>Desarrollo de una aplicación funcional utilizando <strong>Angular</strong> y <strong>Spring Boot</strong>. Realicé pruebas unitarias para asegurar la calidad del código y trabajé integrado en un equipo real.</p>
+            </div>
+
+            <div class="itemExperiencia">
+                <h3>Formación Continua</h3>
+                <span class="fechaExperiencia">Udemy | 2025</span>
+                <p>Curso especializado en Desarrollo con Spring Boot y Microservicios.</p>
+            </div>
+        </section>
+
+        <section class="seccionTarjeta" style="text-align: center;">
+            <h2 class="tituloSeccion">¿Hablamos?</h2>
+            <p>Estoy disponible para nuevos proyectos y colaboraciones.</p>
+            
+            <a href="https://www.linkedin.com/in/alejandro-cuesta-trapote" target="_blank" class="botonContacto">
+                Ver mi LinkedIn
+            </a>
+            <br><br>
+            <small>📍 Aranjuez, Madrid</small>
+        </section>
+
+    </main>
+
 </body>
 </html>

@@ -1,0 +1,116 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0a0a0a;
+    margin: 0;
+    padding: 0;
+    color: #d1d1d1;
+    line-height: 1.6;
+}
+
+.headerPrincipal {
+    background-color: #000000;
+    color: #b8860b;
+    padding: 80px 20px;
+    text-align: center;
+    border-bottom: 2px solid #b8860b;
+}
+
+.miFoto {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #b8860b;
+    margin-bottom: 25px;
+}
+
+.tituloNombre {
+    margin: 0;
+    font-size: 2.8em;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: -1px;
+}
+
+.subtituloProfesion {
+    font-size: 1.1em;
+    font-weight: 400;
+    color: #666;
+    margin-top: 10px;
+}
+
+.contenedorPrincipal {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.seccionTarjeta {
+    background-color: #141414;
+    padding: 30px;
+    border-radius: 4px;
+    margin-bottom: 40px;
+    border: 1px solid #222;
+    border-right: 4px solid #b8860b;
+}
+
+.tituloSeccion {
+    color: #b8860b;
+    border-bottom: 1px solid #222;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.listaHabilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+}
+
+.etiquetaHabilidad {
+    background-color: transparent;
+    color: #b8860b;
+    padding: 8px 18px;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 0.85em;
+    border: 1px solid #b8860b;
+}
+
+.itemExperiencia {
+    margin-bottom: 25px;
+    padding-left: 20px;
+    border-left: 1px solid #b8860b;
+}
+
+.fechaExperiencia {
+    color: #555;
+    font-size: 0.85em;
+    margin-bottom: 8px;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.botonContacto {
+    display: inline-block;
+    background-color: transparent;
+    color: #b8860b;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 2px;
+    margin-top: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 2px solid #b8860b;
+    transition: all 0.4s;
+}
+
+.botonContacto:hover {
+    background-color: #b8860b;
+    color: #000;
+}
