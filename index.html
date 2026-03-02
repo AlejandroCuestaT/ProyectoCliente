@@ -4,89 +4,109 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio de Alejandro Cuesta</title>
+    
     <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2245%22 fill=%22%23b8860b%22/><text x=%2250%%22 y=%2250%%22 text-anchor=%22middle%22 fill=%22black%22 font-family=%22monospace%22 font-weight=%22bold%22 font-size=%2250%22 dy=%22.3em%22>AC</text></svg>">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body class="bodyPersonalizado">
 
-    <header class="headerPrincipal">
-        <img src="img/foto-cara.png" alt="Foto" class="miFoto">
-        <h1 class="tituloNombre">Alejandro Cuesta Trapote</h1>
-        <p class="subtituloProfesion">Desarrollador de Aplicaciones Web y Multiplataforma</p>
+    <header class="headerPrincipal text-center py-5">
+        <div class="container">
+            <img src="img/foto-cara.png" alt="Foto de Alejandro" class="miFoto rounded-circle mb-3">
+            <h1 class="tituloNombre display-4">Alejandro Cuesta Trapote</h1>
+            <p class="subtituloProfesion lead">Desarrollador de Aplicaciones Web y Multiplataforma</p>
+        </div>
     </header>
 
-    <main class="contenedorPrincipal">
+    <main class="container contenedorPrincipal my-5">
+        
+        <div class="row g-4"> <section class="col-12">
+                <div class="card seccionTarjeta p-4">
+                    <h2 class="tituloSeccion mb-3">Sobre mí</h2>
+                    <p>
+                        ¡Hola! Soy un desarrollador formándome y aprendiendo cada día más, me estoy especializando en <strong>Backend</strong>. 
+                        Una de mis cualidades es esa curiosidad por querer aprender y actualizarme cada día como un hobbie más.
+                    </p>
+                    <p>
+                        Trabajar en equipo, tener comunicación constante y la resolución de problemas es una de las cosas que más me gusta de este sector.
+                    </p>
+                </div>
+            </section>
 
-        <section class="seccionTarjeta">
-            <h2 class="tituloSeccion">Sobre mí</h2>
-            <p>
-                ¡Hola! Soy un desarrollador formándome y aprendiendo cada día más, me estoy especializando en <strong>Backend</strong>. 
-                Una de mis cualidades es esa curiosidad por querer aprender y actualizarme cada día como un hobbie más.
-            </p>
-            <p>
-                Trabajar en equipo, tener comunicación constante y la resolución de problemas es una de las cosas que más me gusta de este sector.
-            </p>
-        </section>
+            <section class="col-12">
+                <div class="card seccionTarjeta p-4">
+                    <h2 class="tituloSeccion mb-4">Herramientas</h2>
+                    
+                    <div class="row">
+                        <div class="col-md-4 mb-3">
+                            <h4 class="subtituloCategoria h5">Frontend</h4>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge etiquetaHabilidad p-2">HTML + CSS</span>
+                                <span class="badge etiquetaHabilidad p-2">Angular</span>
+                                <span class="badge etiquetaHabilidad p-2">TypeScript</span>
+                            </div>
+                        </div>
 
-        <section class="seccionTarjeta">
-            <h2 class="tituloSeccion">Herramientas</h2>
-            
-            <div class="grupoHabilidades">
-                <h4 class="subtituloCategoria">Frontend</h4>
-                <ul class="listaHabilidades">
-                    <li class="etiquetaHabilidad">HTML + CSS</li>
-                    <li class="etiquetaHabilidad">Angular</li>
-                    <li class="etiquetaHabilidad">TypeScript</li>
-                </ul>
-            </div>
+                        <div class="col-md-4 mb-3">
+                            <h4 class="subtituloCategoria h5">Backend</h4>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge etiquetaHabilidad p-2">Java</span>
+                                <span class="badge etiquetaHabilidad p-2">Spring Boot</span>
+                                <span class="badge etiquetaHabilidad p-2">Python</span>
+                                <span class="badge etiquetaHabilidad p-2">SQL</span>
+                            </div>
+                        </div>
 
-            <div class="grupoHabilidades">
-                <h4 class="subtituloCategoria">Backend</h4>
-                <ul class="listaHabilidades">
-                    <li class="etiquetaHabilidad">Java</li>
-                    <li class="etiquetaHabilidad">Spring Boot</li>
-                    <li class="etiquetaHabilidad">Python</li>
-                    <li class="etiquetaHabilidad">SQL</li>
-                </ul>
-            </div>
+                        <div class="col-md-4 mb-3">
+                            <h4 class="subtituloCategoria h5">Otras</h4>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge etiquetaHabilidad p-2">Docker</span>
+                                <span class="badge etiquetaHabilidad p-2">GitHub</span>
+                                <span class="badge etiquetaHabilidad p-2">AWS</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-            <div class="grupoHabilidades">
-                <h4 class="subtituloCategoria">Otras</h4>
-                <ul class="listaHabilidades">
-                    <li class="etiquetaHabilidad">Docker</li>
-                    <li class="etiquetaHabilidad">GitHub</li>
-                    <li class="etiquetaHabilidad">AWS</li>
-                </ul>
-            </div>
-        </section>
+            <section class="col-12">
+                <div class="card seccionTarjeta p-4">
+                    <h2 class="tituloSeccion mb-3">Experiencia</h2>
+                    
+                    <div class="itemExperiencia mb-4">
+                        <h3 class="h5 mb-1">Desarrollador Full Stack (Prácticas)</h3>
+                        <small class="fechaExperiencia d-block mb-2 text-muted">Eviden (Atos) | Marzo 2024 - Junio 2025</small>
+                        <p>Desarrollo de una aplicación funcional en grupo utilizando <strong>Angular</strong> y <strong>Spring Boot</strong>.</p>
+                    </div>
 
-        <section class="seccionTarjeta">
-            <h2 class="tituloSeccion">Experiencia</h2>
-            <div class="itemExperiencia">
-                <h3>Desarrollador Full Stack (Prácticas)</h3>
-                <span class="fechaExperiencia">Eviden (Atos) | Marzo 2024 - Junio 2025</span>
-                <p>Desarrollo de una aplicación funcional en grupo utilizando <strong>Angular</strong> y <strong>Spring Boot</strong>.</p>
-            </div>
-            <div class="itemExperiencia">
-                <h3>Formación</h3>
-                <span class="fechaExperiencia">Udemy | 2025</span>
-                <p>Curso especializado en Desarrollo con Spring Boot y Microservicios.</p>
-            </div>
-        </section>
+                    <div class="itemExperiencia">
+                        <h3 class="h5 mb-1">Formación</h3>
+                        <small class="fechaExperiencia d-block mb-2 text-muted">Udemy | 2025</small>
+                        <p>Curso especializado en Desarrollo con Spring Boot y Microservicios.</p>
+                    </div>
+                </div>
+            </section>
 
-        <section class="seccionTarjeta" style="text-align: center;">
-            <h2 class="tituloSeccion">¿Conectamos?</h2>
-            <p>Estoy disponible para cualquier propuesta de proyecto o feedback.</p>
-            
-            <a href="https://www.linkedin.com/in/alejandro-cuesta-trapote" target="_blank" class="botonContacto">LinkedIn</a>
-            <a href="https://github.com/AlejandroCuestaT" target="_blank" class="botonContacto">GitHub</a>
-            <a href="mailto:alejandrocuestat@gmail.com" class="botonContacto">Gmail</a>
-            
-            <br><br>
-            <small>📍 Aranjuez, Madrid</small>
-        </section>
+            <section class="col-12 text-center">
+                <div class="card seccionTarjeta p-4">
+                    <h2 class="tituloSeccion mb-3">¿Conectamos?</h2>
+                    <p>Estoy disponible para cualquier propuesta de proyecto o feedback.</p>
+                    
+                    <div class="d-flex justify-content-center flex-wrap gap-3 mt-3">
+                        <a href="https://www.linkedin.com/in/alejandro-cuesta-trapote" target="_blank" class="btn botonContacto px-4">LinkedIn</a>
+                        <a href="https://github.com/AlejandroCuestaT" target="_blank" class="btn botonContacto px-4">GitHub</a>
+                        <a href="mailto:alejandrocuestat@gmail.com" class="btn botonContacto px-4">Gmail</a>
+                    </div>
+                    
+                    <p class="mt-4 mb-0"><small>📍 Aranjuez, Madrid</small></p>
+                </div>
+            </section>
 
-    </main>
+        </div> </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
